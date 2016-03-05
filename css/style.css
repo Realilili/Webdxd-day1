@@ -1,12 +1,12 @@
 html{
-	font-family: Helvetica,Arial;
+	
 	font-size:20px;
+	font-family: 'Roboto', sans-serif;
 }
 body {
 	background-color:#000000;
 	color: rgba(255,255,255,0.9);
 	/*opacity: 0.5;*/
-	font-family: 
 }
 
 a{
@@ -133,6 +133,13 @@ transition: background-color 1s, color 1s, font-weight 0.8s;
 .lanaimg{
 	text-align: center;
 	margin-top: 10%;}
+
+
+.ticket{
+	background: transparent;
+	border-radius: 5px;
+	padding: 5px;
+}
 
 @media(max-width:536px){
 nav ul li a{
